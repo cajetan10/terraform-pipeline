@@ -42,7 +42,7 @@ pipeline {
 
             echo "Pulling changes from the branch ${params.Branch}"
 
-            git credentialsId: '117b24f1-7507-4a8d-b4f6-d2e496c24cd1', url: 'https://github.com/cajetan10/terraform-pipeline.git' , branch: "${params.Branch}"
+            git credentialsId: '117b24f1-7507-4a8d-b4f6-d2e496c24cd1', url: 'https://github.com/cajetan10/terraform-pipeline.git', branch: "${params.Branch}"
 
         }
 
